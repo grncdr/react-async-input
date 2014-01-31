@@ -1,0 +1,32 @@
+{
+  "name": "react-async-input",
+  "version": "0.0.0",
+  "description": "wrap React inputs so that asynchrous updates don't cause the cursor to jump",
+  "main": "index.js",
+  "dependencies": {
+    "envify": "~0.2.0",
+    "react": "~0.8.0"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/grncdr/react-async-input.git"
+  },
+  "bugs": {
+    "type": "git",
+    "url": "git://github.com/grncdr/react-async-input/issues"
+  },
+  "homepage": "https://github.com/grncdr/react-async-input",
+  "keywords": [
+    "react",
+    "input",
+    "async"
+  ],
+  "author": "Stephen Sugden <me@stephensugden.com>",
+  "license": "EPL"
+}
