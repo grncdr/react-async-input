@@ -23,7 +23,7 @@ function asyncInput (ctor) {
     render: function () {
       return this.transferPropsTo(
         ctor({
-          value: String(this.state.value),
+          value: this.state.value,
           onChange: this.onChange,
           children: this.props.children
         })
