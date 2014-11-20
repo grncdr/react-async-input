@@ -5,7 +5,7 @@ around.
 
 ## Warning! Old and unmaintained!
 
-I haven't been keeping up with React/maintaining anything that uses it, so this library is compatible with React **0.9.x**. It apparently **does not work with new versions of React**. If you use React and this library, send a PR and I will grant you ownership of the package on npm.
+I haven't been keeping up with React/maintaining anything that uses it, so this library is compatible with React **0.9.x**. It **may or may not work with new versions of React**. If you use React and this library, send a PR and I will grant you ownership of the package on npm.
 
 ## Synopsis
 
