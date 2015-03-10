@@ -21,12 +21,13 @@ function asyncInput (ctor) {
     },
 
     render: function () {
-      return this.transferPropsTo(
-        ctor({
+      return React.createElement(
+        ctor,
+        React.__spread({}, this.props, {
           value: this.state.value,
-          onChange: this.onChange,
-          children: this.props.children
-        })
+          onChange: this.onChange
+        }),
+        this.props.children
       )
     }
   })
